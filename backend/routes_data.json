@@ -1,0 +1,51 @@
+{
+  "Tumkur": [
+    {"bus_no":"201","route":"Kyathsandra - Tumkur - Heggere","distance_km":"13.30"},
+    {"bus_no":"202","route":"Shettihalli - Tumkur - Yellapura","distance_km":"10.70"},
+    {"bus_no":"203","route":"Oorukere - Tumkur - MaralurDinne","distance_km":"11.50"},
+    {"bus_no":"201D/1","route":"Tumkur - DC Office - Siddaganga Mutt","distance_km":"08.20"},
+    {"bus_no":"204","route":"Gangasandra - Tumkur - Belagumba","distance_km":"12.00"},
+    {"bus_no":"Not provided","route":"Tumkur - SIT Back gate - Devarayapatna","distance_km":"06.70"},
+    {"bus_no":"201B/1","route":"Tumkur - SIT Back gate - Kyathsandra","distance_km":"07.00"},
+    {"bus_no":"205","route":"Tumkur - Upparahalli - Goolarive","distance_km":"05.50"},
+    {"bus_no":"203D/1","route":"Oorukere - Tumkur - Ramakrishna Aashrama - MaralurDinne","distance_km":"11.90"},
+    {"bus_no":"205D/1","route":"Tumkur - Upparahalli - Jayanagara","distance_km":"05.50"},
+    {"bus_no":"206","route":"Tumkur - Gulur - Ethenahalli","distance_km":"09.40"},
+    {"bus_no":"207","route":"Tumkur - Baddihalli/Honnenahalli","distance_km":"5.5/6.7"},
+    {"bus_no":"208","route":"Tumkur - Bellavi","distance_km":"14.80"},
+    {"bus_no":"205/3","route":"Goolarive - Tumkur - Dibbur","distance_km":"09.00"},
+    {"bus_no":"205/4","route":"Goolarive - Tumkur - Swandenahally","distance_km":"14.50"},
+    {"bus_no":"209","route":"Tumkur - Kesaramadu","distance_km":"10.00"},
+    {"bus_no":"301","route":"Tumkur - Caltex - Bhimsandra - Heggere - Mallasandra - Gubbi - Nittur","distance_km":"Not provided","stops":["Tumkur","Caltex","Bhimsandra","Heggere","Mallasandra","Gubbi","Nittur"]}
+  ],
+  "Davangere": [
+    {"bus_no":"1","route":"Sriramnagar - Karur","distance_km":"13"},
+    {"bus_no":"2","route":"Shamanur - University","distance_km":"16"},
+    {"bus_no":"3","route":"Davangere - Harihara","distance_km":"14"},
+    {"bus_no":"4","route":"Vidyanagara - Davangere University","distance_km":"16"}
+  ],
+  "Mysore": [
+    {"bus_no":"Not provided","from":"CITY BUS STAND","to":"SUB ADAKANAHALLIHUNDI HOSAHUNDI","service_class":"Not provided","via":"SUB ADAKANAHALLIHUNDI HOSAHUNDI","departure":"0700"},
+    {"bus_no":"Not provided","from":"CITY BUS STAND","to":"SUB ADAKANAHALLIHUNDI HOSAHUNDI","service_class":"Not provided","via":"SUB ADAKANAHALLIHUNDI HOSAHUNDI","departure":"0825"},
+    {"bus_no":"Not provided","from":"CITY BUS STAND","to":"SUB ADAKANAHALLIHUNDI HOSAHUNDI","service_class":"Not provided","via":"SUB ADAKANAHALLIHUNDI HOSAHUNDI","departure":"0905"},
+    {"bus_no":"Not provided","from":"CITY BUS STAND","to":"SUB ADAKANAHALLIHUNDI HOSAHUNDI","service_class":"Not provided","via":"SUB ADAKANAHALLIHUNDI HOSAHUNDI","departure":"1010"},
+    {"bus_no":"Not provided","from":"CITY BUS STAND","to":"SUB ADAKANAHALLIHUNDI HOSAHUNDI","service_class":"Not provided","via":"SUB ADAKANAHALLIHUNDI HOSAHUNDI","departure":"1400"},
+    {"bus_no":"Not provided","from":"CITY BUS STAND","to":"SUB ADAKANAHALLIHUNDI HOSAHUNDI","service_class":"Not provided","via":"SUB ADAKANAHALLIHUNDI HOSAHUNDI","departure":"1430"},
+    {"bus_no":"Not provided","from":"CITY BUS STAND","to":"SUB ADAKANAHALLIHUNDI HOSAHUNDI","service_class":"Not provided","via":"SUB ADAKANAHALLIHUNDI HOSAHUNDI","departure":"1615"},
+    {"bus_no":"Not provided","from":"CITY BUS STAND","to":"SUB ADAKANAHALLIHUNDI HOSAHUNDI","service_class":"Not provided","via":"SUB ADAKANAHALLIHUNDI HOSAHUNDI","departure":"1705"},
+    {"bus_no":"Not provided","from":"CITY BUS STAND","to":"SUB ADAKANAHALLIHUNDI HOSAHUNDI","service_class":"Not provided","via":"SUB ADAKANAHALLIHUNDI HOSAHUNDI","departure":"1830"},
+    {"bus_no":"Not provided","from":"CITY BUS STAND","to":"SUB ADAKANAHALLIHUNDI HOSAHUNDI","service_class":"Not provided","via":"SUB ADAKANAHALLIHUNDI HOSAHUNDI","departure":"1945"},
+    {"bus_no":"Not provided","from":"CITY BUS STAND","to":"AHALYA UDBURU","service_class":"ORD","via":"AHALYA UDBURU","departure":"0600"},
+    {"bus_no":"Not provided","from":"CITY BUS STAND","to":"AHALYA UDBURU","service_class":"ORD","via":"AHALYA UDBURU","departure":"0850"},
+    {"bus_no":"Not provided","from":"CITY BUS STAND","to":"AHALYA UDBURU","service_class":"ORD","via":"AHALYA UDBURU","departure":"1500"},
+    {"bus_no":"Not provided","from":"CITY BUS STAND","to":"AHALYA UDBURU","service_class":"ORD","via":"AHALYA UDBURU","departure":"1740"},
+    {"bus_no":"Not provided","from":"CITY BUS STAND","to":"AHALYA UDBURU","service_class":"ORD","via":"AHALYA UDBURU","departure":"2025"},
+    {"bus_no":"Not provided","from":"CITY BUS STAND","to":"TRIVENI CIRCLE","service_class":"CITY","via":"AMBEDKARCOLON","departure":"0635"},
+    {"bus_no":"Not provided","from":"CITY BUS STAND","to":"TRIVENI CIRCLE","service_class":"CITY","via":"AMBEDKARCOLON","departure":"0800"},
+    {"bus_no":"Not provided","from":"CITY BUS STAND","to":"TRIVENI CIRCLE","service_class":"CITY","via":"AMBEDKARCOLON","departure":"0905"},
+    {"bus_no":"Not provided","from":"CITY BUS STAND","to":"TRIVENI CIRCLE","service_class":"CITY","via":"AMBEDKARCOLON","departure":"1040"},
+    {"bus_no":"Not provided","from":"CITY BUS STAND","to":"TRIVENI CIRCLE","service_class":"CITY","via":"AMBEDKARCOLON","departure":"1200"},
+    {"bus_no":"Not provided","from":"CITY BUS STAND","to":"TRIVENI CIRCLE","service_class":"CITY","via":"AMBEDKARCOLON","departure":"1325"},
+    {"bus_no":"Not provided","from":"CITY BUS STAND","to":"TRIVENI CIRCLE","service_class":"CITY","via":"AMBEDKARCOLON","departure":"1510"}
+  ]
+}
