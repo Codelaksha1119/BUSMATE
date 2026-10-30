@@ -5,6 +5,7 @@ import {
   Marker,
   Popup,
   Polyline,
+  Tooltip,
   useMap,
 } from "react-leaflet";
 import L from "leaflet";
@@ -25,6 +26,23 @@ const busIcon = L.divIcon({
   iconSize: [48, 48],
   iconAnchor: [24, 24],
   popupAnchor: [0, -22],
+});
+
+
+// Custom stop marker: works without Leaflet's default marker images.
+const stopIcon = L.divIcon({
+  className: "busmate-stop-marker",
+  html: `<div style="
+    width: 18px;
+    height: 18px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    background: #ffffff;
+    border: 5px solid #1769e8;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+  "></div>`,
+  iconSize: [18, 18],
+  iconAnchor: [9, 9],
 });
 
 const cityData = {
@@ -318,7 +336,21 @@ function MapView({ city, bus, expanded = false, onProgress }) {
         )}
 
         {is301 && bus301Stops.map((stop, index) => (
-          <Marker key={stop.name} position={stop.position}>
+          <Marker
+            key={stop.name}
+            position={stop.position}
+            icon={stopIcon}
+            zIndexOffset={500}
+          >
+            <Tooltip
+              permanent
+              direction="top"
+              offset={[0, -8]}
+              opacity={1}
+              className="busmate-stop-label"
+            >
+              <strong>{stop.name}</strong>
+            </Tooltip>
             <Popup>
               <strong>{index + 1}. {stop.name}</strong>
               <br />Bus 301 route stop
@@ -328,7 +360,7 @@ function MapView({ city, bus, expanded = false, onProgress }) {
         ))}
 
         {bus && (
-          <Marker position={busPosition} icon={busIcon}>
+          <Marker position={busPosition} icon={busIcon} zIndexOffset={1000}>
             <Popup>
               <strong>Bus {bus.no}</strong>
               <br />Simulated location — not live GPS
